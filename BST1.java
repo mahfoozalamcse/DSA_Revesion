@@ -56,8 +56,30 @@ public class BST1 {
 
     // insert node iterative
     public static Node insertBSTIterative(Node root, int x){
-       
+       Node temp = new Node(x);
+       Node parent = null;
+       Node curr = root;
 
+       while (curr != null) {
+         parent = curr;
+         if (curr.key > x) {
+            curr = curr.left;
+         }else if (curr.key < x) {
+            curr = curr.right;
+         } else {
+            return root;
+         }
+       }
+
+       if (parent == null) {
+          return temp;
+       }
+       if (parent.key > x) {
+          parent.left = temp;
+       }else{
+          parent.right = temp;
+       }
+      return root;
     }
 
     public static void main(String[] args) {
