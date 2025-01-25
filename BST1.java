@@ -40,7 +40,7 @@ public class BST1 {
       return false;
     }
 
-    // insert in BST 
+    // insert in BST recursive
     public static Node insertBST(Node root, int x){
 
         if (root == null) {
@@ -52,6 +52,12 @@ public class BST1 {
             root.left = insertBST(root.left, x);
         }
        return root;
+    }
+
+    // insert node iterative
+    public static Node insertBSTIterative(Node root, int x){
+       
+
     }
 
     public static void main(String[] args) {
