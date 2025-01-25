@@ -40,7 +40,19 @@ public class BST1 {
       return false;
     }
 
-    
+    // insert in BST 
+    public static Node insertBST(Node root, int x){
+
+        if (root == null) {
+           return new Node(x);
+        }
+        else if (root.key < x) {
+            root.right = insertBST(root.right, x);
+        } else if(root.key > x){
+            root.left = insertBST(root.left, x);
+        }
+       return root;
+    }
 
     public static void main(String[] args) {
         
