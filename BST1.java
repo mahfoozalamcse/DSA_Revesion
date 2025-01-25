@@ -24,6 +24,20 @@ public class BST1 {
     }
 
     // iterative search 
+
+    public static boolean iterativeSearchBST(Node root, int x){
+        if(root == null) return false;
+        if (root.key == x) {
+            return true;
+        }
+        else if (root.key < x) {
+            root = root.right;
+        } else {
+            root = root.left;
+        }
+
+        return false;
+    }
     
 
     public static void main(String[] args) {
