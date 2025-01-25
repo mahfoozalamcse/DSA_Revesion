@@ -26,7 +26,8 @@ public class BST1 {
     // iterative search 
 
     public static boolean iterativeSearchBST(Node root, int x){
-        if(root == null) return false;
+        while (root != null) {
+            
         if (root.key == x) {
             return true;
         }
@@ -35,9 +36,10 @@ public class BST1 {
         } else {
             root = root.left;
         }
-
-        return false;
     }
+      return false;
+    }
+    
     
 
     public static void main(String[] args) {
