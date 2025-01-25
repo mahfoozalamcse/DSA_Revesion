@@ -82,7 +82,27 @@ public class BST1 {
       return root;
     }
 
+    // print inorder traversal
+    public static void inorder(Node root){
+        if(root!=null){
+            inorder(root.left);
+            System.out.print(root.key+" ");
+            inorder(root.right);
+        }    
+    }
+
     public static void main(String[] args) {
-        
+        Node root=new Node(10);
+    	root.left=new Node(5);
+    	root.right=new Node(15);
+    	root.right.left=new Node(12);
+    	root.right.right=new Node(18);
+    	int x=20;
+
+    	root=insertBST(root,x);
+	    inorder(root);
+
+        System.out.println();
+        System.out.println(iterativeSearchBST(root, x));
     }
 }
