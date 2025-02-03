@@ -1,2 +1,2 @@
 # Binary-Search-Tree.java
-Practice binary search 
+Practice binary search
