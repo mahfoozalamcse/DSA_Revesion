@@ -1,4 +1,4 @@
-public class BST1 {  
+public class BST1 {   
     public static class Node{ 
          
         int key;
