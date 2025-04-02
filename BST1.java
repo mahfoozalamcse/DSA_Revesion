@@ -29,7 +29,7 @@ public class BST1 {
         while (root != null) {
             
         if (root.key == x) {
-            return true;
+            return true; 
         }
         else if (root.key < x) {
             root = root.right;
