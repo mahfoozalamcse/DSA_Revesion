@@ -34,7 +34,7 @@ public class BST1 {
         else if (root.key < x) {
             root = root.right;
         } else {
-            root = root.left;
+            root = root.left; 
         }
     }
       return false;
