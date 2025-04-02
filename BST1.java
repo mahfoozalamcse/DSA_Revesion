@@ -51,7 +51,7 @@ public class BST1 {
         } else if(root.key > x){
             root.left = insertBST(root.left, x);
         }
-       return root;
+       return root; 
     }
 
     // insert node iterative
