@@ -71,7 +71,7 @@ public class BST1 {
          }
        }
 
-       if (parent == null) {
+       if (parent == null) { 
           return temp;
        }
        if (parent.key > x) {
