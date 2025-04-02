@@ -79,7 +79,7 @@ public class BST1 {
        }else{
           parent.right = temp;
        }
-      return root;
+      return root; 
     }
 
     // print inorder traversal
