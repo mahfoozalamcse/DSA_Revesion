@@ -1,5 +1,5 @@
 public class BST1 {     
-    public static class Node{     
+    public static class Node{      
          
         int key;
         Node left, right; 
