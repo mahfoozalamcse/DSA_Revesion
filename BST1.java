@@ -41,7 +41,7 @@ public class BST1 {
     }
 
     // insert in BST recursive
-    public static Node insertBST(Node root, int x){
+    public static Node insertBST(Node root, int x){ 
 
         if (root == null) {
            return new Node(x);
