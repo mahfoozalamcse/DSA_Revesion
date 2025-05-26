@@ -10,7 +10,7 @@ public class SearchKey {
     }
 
     // search
-    public static boolean search(Node root, int x){
+    public static boolean search(Node root, int x){ 
         if(root == null){
             return false;
         }else if(root.key == x){
