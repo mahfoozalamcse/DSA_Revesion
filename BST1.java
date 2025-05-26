@@ -26,7 +26,7 @@ public class BST1 {
     // iterative search time O(h) space is O(1)
 
     public static boolean iterativeSearchBST(Node root, int x){
-        while (root != null) {
+        while (root != null) { 
             
         if (root.key == x) {
             return true; 
