@@ -11,7 +11,7 @@ public class BST1 {
     }
 
     // recursive search binary search tree time O(h) space O(h)
-    public static boolean recursivesearchBST(Node root, int x){
+    public static boolean recursivesearchBST(Node root, int x){ 
       if(root == null) return false;
       if(root.key == x){
          return true;
