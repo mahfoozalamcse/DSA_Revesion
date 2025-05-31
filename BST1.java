@@ -4,7 +4,7 @@ public class BST1 {
         int key;
         Node left, right;   
 
-        Node(int data){  
+        Node(int data){   
             key = data;
             left = right = null;
         }
