@@ -1,3 +1,4 @@
+package BST;
 public class BST1 {     
     public static class Node{
          
