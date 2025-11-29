@@ -11,6 +11,7 @@ public class HashingPart2 {
             set.add(num);
         }
         return set.size();
+        
     }
 
     public static void main(String[] args) {
