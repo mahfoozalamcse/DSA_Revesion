@@ -13,8 +13,6 @@ public class HashingPart2 {
         return set.size();
         
     }
-
-    
     public static void main(String[] args) {
         int[] arr = {1, 2, 2, 3, 4, 4, 5};
         int distinctCount = countDistinctElements(arr);
